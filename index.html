@@ -1,0 +1,1252 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Juan Carlos Alzate García · Cero Fricción</title>
+<meta name="description" content="Chief AI Officer, ExO Coach y creador de MDE X 2.0 y MPD 2.0. Construyendo IA desde 2017. Evaluación integral para proyectos de IA exitosos.">
+<meta property="og:title" content="Juan Carlos Alzate García · Cero Fricción">
+<meta property="og:description" content="No implemento tecnología. Elimino fricción para que tu negocio crezca con lo que ya tienes.">
+<meta property="og:image" content="7-pilares.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A1730'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' fill='%23C9A45C' text-anchor='middle'%3EJCA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script>
+/* =====================================================================
+   ZONA EDITABLE · Todo lo que cambia con frecuencia vive aquí arriba.
+   ===================================================================== */
+
+/* 1. CONFIGURACIÓN · Redes y contacto. Si un campo queda vacío "", su
+      botón o ícono simplemente no aparece en la web. */
+const CONFIG = {
+  linkedin:           "https://www.linkedin.com/in/juancarlosalzategarcia",
+  newsletterLinkedin: "",   // Enlace a su newsletter actual en LinkedIn
+  youtube:            "",   // https://www.youtube.com/@...
+  tiktok:             "",   // https://www.tiktok.com/@...
+  instagram:          "",
+  x:                  "",
+  facebook:           "",
+  whatsapp:           "",   // Solo números con indicativo, ej: "573001234567"
+  email:              "",   // correo de contacto
+  agenda:             "",   // Calendly, Google Calendar u otro enlace para agendar
+  /* Formulario del newsletter "Criterio Exponencial": pegue aquí la URL de
+     acción de Brevo, MailerLite, Formspree, etc. Si queda vacío, la
+     suscripción se envía por correo o WhatsApp. */
+  formularioNewsletter: ""
+};
+
+/* 2. ARTÍCULOS · Para publicar uno nuevo, copie un bloque { ... }, péguelo
+      AL INICIO de la lista y cambie el contenido.
+      Formato del texto:  línea en blanco = nuevo párrafo
+                          ## Título        = subtítulo
+                          > frase          = cita destacada
+                          - elemento       = lista
+                          **texto**        = negrita                        */
+const ARTICULOS = [
+{
+  slug: "ia-si-pero-primero-para",
+  titulo: "IA sí, pero primero PARA",
+  bajada: "Usarla ya es normal. Que tu empresa esté preparada para ella, no.",
+  fecha: "2026-09-15",
+  tema: "IA Empresarial",
+  origen: "",   // enlace al artículo original en LinkedIn (opcional)
+  texto: `
+Preguntarle algo a Claude, a ChatGPT, a Gemini o a Copilot dejó de ser un gesto de early adopter. Se volvió tan normal como buscarlo en Google, y en muchos casos ya ni se busca, se pregunta directamente, cada vez más seguido por voz. Algunos reportes de tráfico web ubican el salto de los resúmenes generados por IA dentro de los resultados de Google en algo así como de 15% a 43% de las búsquedas en Estados Unidos, entre enero de 2025 y mayo de este año. El comportamiento cambió rápido, y a la gente ya casi no le importa distinguir entre buscar algo y preguntarlo directamente.
+
+Esto ya dejó de ser un tema de un sector. En los últimos meses he estado en salas de directorio de industrias muy distintas, construcción, manufactura, retail, banca, salud, y el patrón se repite casi calcado: alguien pregunta si ya tienen IA, la respuesta casi siempre es sí, pero cuando pregunto qué cambió en cómo trabajan, el silencio es el mismo en todas las industrias.
+
+Ahí está el problema real que casi nadie nombra en voz alta: que las personas usen IA todos los días no significa que la empresa esté usando IA. Son dos cosas distintas, y confundirlas es de los errores más caros que le he visto cometer a un liderazgo.
+
+## Usarla es normal. Que la empresa la use, no.
+
+Y cuando la empresa sí decide meter IA sin haber resuelto primero este punto, el resultado casi siempre es el mismo, sin importar el sector: se arma un silo. Un generador de información adicional que no conversa con el resto de los sistemas de la empresa, que no llega a quien tiene que decidir, y que termina siendo otro reporte más que nadie lee. Ahí se vuelve imposible llegar a los resultados que se esperaban cuando se compró la herramienta.
+
+Según el reporte 2026 de Deloitte sobre el estado de la IA en las empresas, cerca del 60% de los trabajadores en el mundo ya tiene acceso a alguna solución de IA aprobada por su organización, frente a menos del 40% hace apenas un año. El acceso creció rápido. Pero menos de seis de cada diez empleados con ese acceso la usan todos los días, y el dato que más me preocupa de ese informe es otro: el 84% de las organizaciones no ha rediseñado ni un solo puesto de trabajo ni un flujo operativo para integrar la IA.
+
+> Eso no es adopción. Es acceso sin uso real.
+
+Es comprar la licencia, activarla para todo el equipo, y esperar que el cambio pase solo.
+
+## El problema no es la herramienta, es el diseño
+
+PwC encontró algo parecido este año, del lado de las personas. Solo el 14% de los empleados usa IA generativa todos los días, apenas dos puntos más que el año anterior. Pero ese 14% reporta resultados muy distintos al resto: 92% dice haber ganado productividad real, contra 58% de quienes la usan con poca frecuencia. La diferencia no está en qué herramienta usan. Está en que a ese grupo alguien le organizó el trabajo alrededor de la IA, en lugar de entregarle la IA para que se las arregle sola con un proceso viejo.
+
+Esto tampoco es nuevo, aunque ahora se sienta urgente. Ya en 1990, Michael Hammer lo escribió en Harvard Business Review: automatizar un proceso malo no lo arregla, solo acelera el error. Ford redujo su proceso de cuentas por pagar de 400 personas a 5. No automatizó lo que tenía. Lo rediseñó desde cero. Treinta y cinco años después el mensaje es el mismo, solo que ahora la tecnología que se usa mal es mucho más cara y mucho más poderosa.
+
+Es lo que Erik Brynjolfsson lleva años documentando en lo que llama la paradoja de la productividad: las tecnologías de propósito general no entregan su valor completo hasta que la organización rediseña sus procesos y su estructura alrededor de ellas, no antes. La IA no está mejorando exponencialmente las organizaciones. Está revelando qué tan bien o mal diseñados estaban sus procesos desde un principio.
+
+## IA sí, pero primero PARA
+
+Por eso insisto en esto con cada líder que se sienta conmigo: **IA sí, pero primero PARA.** No como frase de cierre de charla, como método de trabajo. Antes de decidir qué automatizar o qué agente montar, hay que parar a mirar dos cosas. Dónde está la fricción real dentro de la empresa, y en qué etapa de evolución digital está parada la organización hoy, no en la que cree que está.
+
+Esa fricción la medimos en cinco interfaces que existen en cualquier empresa, sin importar a qué se dedique. La Humana, quién decide y con qué criterio. La Digital, dónde se pierde o se duplica la información entre áreas. La Organizacional, quién aprueba qué y en cuánto tiempo. La Cultural, si la empresa aprende de sus errores o los repite cada ciclo. Y la de IA, si lo que ya tienen corriendo tiene dueño y una meta medible, o si es un piloto que nadie revisa.
+
+Ahí también entra lo más aburrido de todo esto, y por eso casi nadie lo hace primero: política de uso, gobernanza y gestión de los datos que la IA recibe y entrega. Quién puede usar qué modelo, con qué información de la empresa, qué se hace con lo que la IA genera, quién lo revisa antes de que se convierta en una decisión real. Sin eso, cualquier inversión en IA es una apuesta, no una decisión.
+
+Nada de esto es exclusivo de un área de tecnología o de un comité de innovación. Es una conversación que tiene que sentarse a tener el directorio completo, porque las decisiones que se toman ahí, qué se automatiza, qué sigue siendo humano, qué datos entran y salen de un modelo, terminan afectando a toda la operación, no solo a quien maneja la herramienta.
+
+## Lo que de verdad les importa a los líderes
+
+A los directores y gerentes con los que trabajo esto no les importa como modelo. No les importa el nombre del marco de trabajo que uso, ni cuántas preguntas tiene el diagnóstico. Les importa una cosa: qué van a lograr con todo esto.
+
+La respuesta es simple, aunque el camino no lo sea. Primero, claridad, saber exactamente dónde está parada la empresa hoy, sin adivinar y sin depender de la percepción de quien responde la encuesta interna. Segundo, dejar de invertir en tecnología que no le entrega valor real al negocio ni a sus clientes, algo que en muchas empresas ya está pasando y todavía nadie lo mide. Y tercero, tener un radar completo de la organización frente a este cambio, en qué etapa de evolución digital está cada área, no solo la empresa en general, porque adoptar IA dejó de ser una opción hace rato. Es una obligación para cualquier empresa que quiera seguir siendo relevante en los próximos años.
+
+Con ese radar en la mano, las decisiones cambian de naturaleza. Ya no se trata de probar una herramienta más a ver qué pasa. Se trata de saber, antes de invertir un solo dólar, en qué área específica la IA va a mover una aguja real, y en cuál todavía falta orden antes de siquiera intentarlo. Esa diferencia es la que separa a una empresa que adopta IA de una que solo la instala.
+
+Este diagnóstico nació trabajando con el sector inmobiliario y constructor, pero la lógica no tiene nada de específico de ese sector. Un proceso mal diseñado no distingue de industria, y la IA tampoco.
+
+> La pregunta ya no es si tu empresa va a adoptar IA. Ya lo está haciendo, la estés dirigiendo o no. La pregunta es si vas a dejar que pase sola, o si vas a parar a dirigirla.
+`
+},
+{
+  slug: "ia-en-la-capa-equivocada",
+  titulo: "Estás hablando de IA en la capa equivocada",
+  bajada: "La IA no es una sola cosa. Son cinco capas, y cada una suma capacidad, complejidad y riesgo.",
+  fecha: "2026-09-29",
+  tema: "IA para Líderes",
+  origen: "",
+  texto: `
+Llevo más de 30 años acompañando empresas en sus procesos de transformación y cada ola tecnológica repite el mismo error: se compra la herramienta antes de entender el problema. Con la IA pasa lo mismo, pero más rápido y con mucho más ruido.
+
+Cuando un líder me dice "necesitamos IA", casi nunca queda claro de cuál. Porque "la IA" no es una sola cosa. Son cinco capas, y cada una suma capacidad, complejidad y riesgo. Si las confundes, inviertes en lo que no toca.
+
+El mapa que uso para explicarlo parte de un gráfico de Srinivas Dande (Dandes Academy). Le agrego lo que veo cuando trabajo con líderes de agroindustria, construcción e inmobiliaria.
+
+## 1. Aprendizaje automático: predecir
+
+Es la capa más antigua y la más subestimada. Toma datos históricos y los convierte en una predicción. Sirve para anticipar la demanda de un insumo, calcular qué clientes se van a atrasar en sus pagos o detectar un fraude antes de que duela.
+
+**Qué hacer:** antes de contratar nada, escribe qué datos tienes, qué quieres predecir y cuándo dirías que funcionó. Si no puedes ponerlo en un papel, todavía no estás listo para esta capa.
+
+## 2. Redes neuronales y aprendizaje profundo: reconocer
+
+Aquí la máquina detecta patrones en imágenes, voz, texto y documentos. Leer facturas y guías de remisión sin que nadie las digite, revisar fotos de avance de obra, transcribir llamadas del servicio al cliente.
+
+**Qué hacer:** preguntarte si el problema justifica la complejidad. Muchas veces una regla sencilla resuelve lo mismo y cuesta bastante menos. No todo necesita una red neuronal.
+
+## 3. IA generativa: crear
+
+Es la que todos conocen: ChatGPT, Claude, Gemini, Midjourney. Genera texto, imágenes, código, resúmenes y análisis. Sirve para resumir reuniones, armar el primer borrador de una propuesta o consultar los manuales internos sin abrir veinte carpetas.
+
+**Qué hacer:** no juzgarla por la demostración. Pide que lo que sale esté apoyado en información real de tu empresa, que alguien lo revise y que se mida en el trabajo del día a día. Una respuesta que suena bien y está equivocada es peor que no tener respuesta.
+
+## 4. Agentes de IA: ejecutar
+
+Un agente ya no solo responde. Usa herramientas, consulta información, recuerda el contexto y completa tareas de varios pasos. Recibe un pedido, revisa el inventario, genera la orden y le avisa al cliente.
+
+**Qué hacer:** definir qué puede ver, qué puede cambiar, qué puede aprobar y cuándo debe escalar a una persona. Un agente sin límites es como entregarle todas las llaves a alguien en su primer día.
+
+## 5. IA agéntica: orquestar
+
+Es el siguiente paso: coordinar varios agentes, herramientas y flujos hacia un resultado mayor. Compras, logística y facturación funcionando como un solo proceso, no como tres tareas sueltas.
+
+**Qué hacer:** diseñar desde el inicio los permisos, quién es dueño de cada decisión, cómo te enteras de lo que está pasando y cómo se deshace una acción equivocada. Tres preguntas simples: quién responde cuando se equivoca, cómo me entero y cómo lo revierto.
+
+## Las capas no compiten
+
+Lo veo así: el aprendizaje automático predice un resultado, la IA generativa lo explica, un agente actúa en consecuencia y la IA agéntica coordina todo el flujo. Cada una tiene su lugar. La pregunta no es cuál es la mejor, sino cuál necesita tu problema.
+
+## El error de saltar hasta arriba
+
+El tropiezo más común es querer llegar directo a los agentes sin construir lo que hay debajo. Una demo de agente puede verse espectacular y esconder datos pobres, una evaluación débil, falta de controles, responsables poco claros y ningún flujo de producción confiable. La demo funciona un martes por la tarde. La operación real no perdona.
+
+Y lo que sostiene todo esto no es la tecnología. En mi libro "Los 7 Pilares de un Proyecto de IA Exitoso" lo resumo así: estrategia, liderazgo, cultura, datos, gobernanza, procesos y medición. Cuanto más subes de capa, más de esos pilares necesitas firmes. Un modelo de predicción vive de datos buenos y una medición honesta. Un agente necesita además gobernanza y procesos definidos. Una orquestación pide todo eso y un liderazgo que sepa qué se automatiza y qué no.
+
+Por eso insisto en algo que vi una y otra vez: el resultado depende mucho más de las personas y la cultura que de la herramienta. La herramienta se compra en una tarde. La cultura para usarla bien toma meses.
+
+## La pregunta que sí sirve
+
+En vez de preguntar "¿cómo llegamos a la IA agéntica?", pregunta esto:
+
+> ¿Cuál es la capa más sencilla que puede resolver nuestro problema real de negocio?
+
+Empieza por el problema. Elige la capa adecuada. Demuéstralo en producción. Y solo cuando el valor justifique la complejidad, suma más autonomía. Más autonomía da más palanca, pero también más responsabilidad.
+
+La madurez en IA no consiste en usar lo más avanzado. Consiste en saber qué capa necesita realmente tu negocio.
+
+Ahora te toca a ti: ¿con qué capa trabaja hoy tu organización y hacia cuál piensas avanzar?
+`
+},
+{
+  slug: "lo-que-aprendi-escribiendo",
+  titulo: "Lo que aprendí escribiendo sobre lo que ya sabía",
+  bajada: "¿De verdad hago lo que le digo a mis clientes que hagan? Un mes aplicándome mi propio modelo, en público.",
+  fecha: "2026-07-31",
+  tema: "Reinvención Personal",
+  origen: "",
+  texto: `
+Hay una pregunta que me hago cada vez que cierro un contrato de consultoría, y este mes me la hice conmigo mismo por primera vez en mucho tiempo: ¿de verdad hago lo que le digo a mis clientes que hagan?
+
+Llevo treinta años diciéndole a líderes que no compren tecnología sin diagnosticar primero. Este mes decidí aplicarme esa misma regla a mí, en público, publicando cada semana, sin saber todavía cómo iba a terminar la serie cuando escribí el primer post.
+
+## Empezar por el propósito, otra vez
+
+El primer pilar de MPD 2.0 es Propósito, y me tocó revisarlo antes de escribir una sola palabra. No quería otro mes de contenido genérico sobre inteligencia artificial. Quería algo que sirviera para algo más que llenar el calendario, que dejara algo útil incluso para quien nunca hable conmigo directamente.
+
+Ese propósito terminó siendo simple, mostrar el diagnóstico completo, con nombre y apellido de cada fuente, en vez de repetir frases motivacionales sobre transformación digital que no comprometen a nadie.
+
+## Abundancia con IA, puesta a prueba de verdad
+
+El segundo pilar dice que la IA multiplica el criterio, no lo reemplaza. Este mes la usé como algo más cercano a un colega exigente que a un asistente que dice que sí a todo.
+
+Le pedí verificar cada cifra antes de publicarla, y más de una vez la respuesta fue que la fuente no era lo suficientemente sólida, o que el dato que yo tenía en la cabeza en realidad venía de un blog citando de segunda mano a McKinsey, no de McKinsey directamente. Hubo una cifra que tuve que descontinuar por completo porque nunca encontramos de dónde salió originalmente. Eso no se sintió cómodo. Se sintió exactamente como el tipo de fricción que llevo treinta años enseñándole a otros a no evitar.
+
+## Aprendizaje aumentado, sin colección de diplomas
+
+No tomé un curso este mes. Aprendí haciendo, que es la parte del tercer pilar que más cuesta explicar hasta que se vive. Encontré datos que no conocía, el efecto superestrella de PwC, la brecha de Atlassian entre velocidad individual y resultado organizacional, el índice de CEPAL y CENIA sobre gobernanza en la región. Ninguno estaba en mi cabeza antes de julio. Ahora forman parte de cómo explico mi propio modelo.
+
+## Síntesis activa, la prueba que más me costó
+
+El cuarto pilar dice que lo que sabes vale poco si se queda solo en tu cabeza. Este mes completo es la aplicación literal de ese pilar. Cada conversación privada que he tenido con un cliente sobre por qué su proyecto de IA no avanza, quedó convertida en algo público, verificable, y que cualquiera puede releer sin que yo esté ahí explicándolo otra vez.
+
+Eso incluyó corregir un archivo mío que tenía información desactualizada, admitir cuando una cifra no se sostenía, y aceptar que algunas de mis propias piezas de contenido necesitaban dos o tres versiones antes de sonar como yo y no como una fórmula genérica de LinkedIn. Nada de eso es cómodo de contar en un post de cierre perfecto, pero es exactamente lo que pasó.
+
+## Exponencialidad, la que todavía no puedo medir
+
+El quinto pilar es el que menos control tengo sobre confirmar. No sé todavía si este mes generará el tipo de resultado exponencial del que hablé. Lo que sí sé es que seguí el mismo orden que le pido a mis clientes que sigan, propósito antes que contenido, criterio antes que herramienta, aprendizaje antes que certificado, documentación antes que memoria, y que la exponencialidad, si llega, va a llegar por haber respetado ese orden, no por haberlo saltado.
+
+## Lo que le dejo a quien llegó hasta aquí
+
+No voy a cerrar esto con una frase perfecta para que la compartan. Voy a cerrar con lo mismo que le pregunto a cada líder que se sienta frente a mí:
+
+> ¿Ya hizo usted, con su propia empresa, lo que yo acabo de hacer con este mes de contenido? No leerlo. No planearlo. Hacerlo.
+`
+}
+];
+
+/* 3. VIDEOS · Pegue el enlace completo de YouTube o TikTok en "url".
+      fuente: "propio" (sus canales) o "externo" (contenido recomendado).
+      Si "url" está vacío, se muestra un espacio "Próximamente".          */
+const VIDEOS = [
+  { plataforma: "youtube", url: "", titulo: "Conferencia · Los 7 Pilares de un Proyecto de IA Exitoso", fuente: "propio" },
+  { plataforma: "youtube", url: "", titulo: "Entrevista · IA, interfaces y fricción", fuente: "propio" },
+  { plataforma: "youtube", url: "", titulo: "Recomendado · Organizaciones Exponenciales", fuente: "externo" },
+  { plataforma: "tiktok",  url: "", titulo: "IA sí, pero primero PARA", fuente: "propio" },
+  { plataforma: "tiktok",  url: "", titulo: "Las 5 capas de la IA en 60 segundos", fuente: "propio" },
+  { plataforma: "tiktok",  url: "", titulo: "¿Qué es la fricción de decisión?", fuente: "propio" },
+  { plataforma: "tiktok",  url: "", titulo: "Propósito antes que herramienta", fuente: "propio" }
+];
+/* ===================== FIN DE LA ZONA EDITABLE ===================== */
+</script>
+
+<style>
+:root{
+  --navy-900:#060F20; --navy-800:#0A1730; --navy-700:#0F2142; --navy-600:#16305C;
+  --gold:#C9A45C; --gold-soft:#E3CC97; --gold-deep:#A8853F;
+  --ivory:#F6F1E6; --ivory-2:#EDE5D3; --ink:#14203A;
+  --text:#E9E4D8; --muted:#A9B2C3; --line:rgba(201,164,92,.28);
+  --serif:"Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --sans:"Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wrap:1180px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--navy-900);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+[hidden]{display:none!important}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:clamp(18px,4vw,40px)}
+section{position:relative;padding-block:clamp(80px,11vw,140px)}
+.eyebrow{font-family:var(--sans);font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);font-weight:600;display:flex;align-items:center;gap:14px;margin:0 0 22px}
+.eyebrow::before{content:"";width:34px;height:1px;background:var(--gold)}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.08;margin:0;color:#fff;letter-spacing:-.01em}
+h2{font-size:clamp(2.2rem,5vw,3.8rem)}
+h2 em,h1 em{font-style:italic;color:var(--gold-soft)}
+.lead{font-size:clamp(1.05rem,1.6vw,1.2rem);color:var(--muted);max-width:640px;margin:22px 0 0;font-weight:300}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 28px;border-radius:999px;font-weight:600;font-size:.92rem;letter-spacing:.02em;text-decoration:none;cursor:pointer;border:1px solid var(--gold);transition:.35s ease;font-family:var(--sans)}
+.btn-gold{background:linear-gradient(135deg,var(--gold-soft),var(--gold) 55%,var(--gold-deep));color:var(--navy-900);border-color:transparent}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 40px -12px rgba(201,164,92,.55)}
+.btn-ghost{background:transparent;color:var(--gold-soft)}
+.btn-ghost:hover{background:rgba(201,164,92,.1)}
+.gold-rule{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);border:0;margin:0}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity 1s ease,transform 1s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:.4s}
+.nav.solid{background:rgba(6,15,32,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:74px;gap:20px}
+.mono{font-family:var(--serif);font-size:1.5rem;color:var(--gold);text-decoration:none;letter-spacing:.06em;display:flex;align-items:center;gap:12px}
+.mono span{font-family:var(--sans);font-size:.62rem;letter-spacing:.28em;color:var(--muted);text-transform:uppercase}
+.nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+.nav ul a{text-decoration:none;font-size:.84rem;color:var(--text);opacity:.8;transition:.3s}
+.nav ul a:hover{opacity:1;color:var(--gold-soft)}
+.nav .btn{padding:10px 20px;font-size:.8rem}
+.burger{display:none;background:none;border:0;color:var(--gold);font-size:1.6rem;cursor:pointer}
+@media (max-width:980px){
+  .nav ul{position:fixed;inset:74px 0 auto 0;flex-direction:column;gap:0;background:var(--navy-900);border-bottom:1px solid var(--line);padding:10px 24px 24px;display:none}
+  .nav ul.open{display:flex}
+  .nav ul a{display:block;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:1rem}
+  .burger{display:block}
+  .nav .btn{display:none}
+  .mono span{display:none}
+}
+
+/* HERO */
+.hero{min-height:100vh;min-height:100svh;display:flex;align-items:center;padding-top:120px;overflow:hidden;
+  background:radial-gradient(1100px 600px at 80% 10%,rgba(201,164,92,.13),transparent 60%),radial-gradient(900px 700px at 0% 100%,rgba(22,48,92,.7),transparent 60%),var(--navy-900)}
+.hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(201,164,92,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(201,164,92,.05) 1px,transparent 1px);background-size:80px 80px;mask-image:radial-gradient(ellipse at 70% 30%,#000 10%,transparent 70%);pointer-events:none}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.badge{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:8px 18px 8px 10px;font-size:.78rem;color:var(--gold-soft);background:rgba(201,164,92,.06);margin-bottom:34px}
+.badge b{background:var(--gold);color:var(--navy-900);border-radius:999px;padding:3px 10px;font-size:.72rem}
+.hero h1{font-size:clamp(2.7rem,7.2vw,6.2rem);max-width:15ch}
+.hero .who{margin-top:30px;font-size:.9rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.hero .who strong{color:#fff;font-weight:600;letter-spacing:.12em}
+.formula{margin-top:50px;display:flex;flex-wrap:wrap;align-items:baseline;gap:.35em;font-family:var(--serif);font-size:clamp(1.25rem,2.6vw,2rem);color:var(--text)}
+.formula .v{color:var(--gold);font-style:italic}
+.formula .f{position:relative;color:var(--muted)}
+.formula .f::after{content:"";position:absolute;left:-4%;top:55%;height:2px;width:0;background:var(--gold);transition:width 1.2s cubic-bezier(.7,0,.2,1) 1.4s}
+.formula.go .f::after{width:108%}
+.formula small{font-family:var(--sans);font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);width:100%;margin-bottom:4px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:46px}
+.scroll-hint{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:2;font-size:.66rem;letter-spacing:.3em;color:var(--muted);text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:10px}
+@media (max-width:760px),(max-height:760px){.scroll-hint{display:none}}
+.scroll-hint::after{content:"";width:1px;height:44px;background:linear-gradient(var(--gold),transparent);animation:drip 2.2s infinite}
+@keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* MANIFIESTO */
+.manifest{background:var(--navy-800)}
+.ratio{margin-top:60px;display:grid;grid-template-columns:70fr 25fr 5fr;gap:6px;min-height:170px}
+.ratio div{padding:26px 22px;display:flex;flex-direction:column;justify-content:space-between;border-radius:4px;transform-origin:left;transform:scaleX(0);transition:transform 1.4s cubic-bezier(.7,0,.2,1)}
+.ratio.in div{transform:scaleX(1)}
+.ratio div:nth-child(2){transition-delay:.25s}.ratio div:nth-child(3){transition-delay:.5s;padding:26px 0;align-items:center}
+.ratio .p{background:linear-gradient(135deg,var(--gold-soft),var(--gold));color:var(--navy-900)}
+.ratio .m{background:var(--navy-600);border:1px solid var(--line)}
+.ratio .t{background:transparent;border:1px solid var(--gold)}
+.ratio b{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4.4rem);font-weight:500;line-height:1}
+.ratio span{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.ratio .t b{font-size:clamp(1.3rem,2.4vw,2rem)}.ratio .t span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:.66rem}
+@media (max-width:640px){.ratio{grid-template-columns:1fr;min-height:0}.ratio div{flex-direction:row;align-items:center}.ratio div:nth-child(3){padding:18px 22px;justify-content:space-between}.ratio .t span{writing-mode:horizontal-tb;transform:none}}
+.quote{font-family:var(--serif);font-style:italic;font-size:clamp(1.5rem,3.2vw,2.4rem);line-height:1.3;color:#fff;max-width:900px;margin:70px 0 0;padding-left:30px;border-left:2px solid var(--gold)}
+.quote cite{display:block;font-family:var(--sans);font-style:normal;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-top:18px}
+
+/* IA DESDE 2017 */
+.ia{background:radial-gradient(800px 500px at 100% 0,rgba(201,164,92,.09),transparent 60%),var(--navy-900)}
+.ia-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(40px,6vw,90px);align-items:start;margin-top:10px}
+@media (max-width:900px){.ia-grid{grid-template-columns:1fr}}
+.big-year{font-family:var(--serif);font-size:clamp(6rem,16vw,12rem);line-height:.85;color:transparent;-webkit-text-stroke:1px var(--gold);margin:30px 0 10px}
+.timeline{list-style:none;margin:0;padding:0;position:relative}
+.timeline::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:1px;background:var(--line)}
+.timeline li{position:relative;padding:0 0 34px 44px}
+.timeline li::before{content:"";position:absolute;left:0;top:7px;width:15px;height:15px;border-radius:50%;border:1px solid var(--gold);background:var(--navy-900)}
+.timeline li.key::before{background:var(--gold);box-shadow:0 0 0 6px rgba(201,164,92,.15)}
+.timeline .y{font-family:var(--serif);font-size:1.5rem;color:var(--gold);line-height:1}
+.timeline h3{font-size:1.35rem;margin:6px 0 4px}
+.timeline p{margin:0;color:var(--muted);font-size:.95rem}
+.layers{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:70px;border-radius:6px;overflow:hidden}
+.layers div{background:var(--navy-800);padding:26px 18px;transition:.35s}
+.layers div:hover{background:var(--navy-700)}
+.layers small{color:var(--gold);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700}
+.layers h4{font-family:var(--serif);font-weight:500;font-size:1.3rem;color:#fff;margin:10px 0 6px;line-height:1.15}
+.layers p{margin:0;font-size:.85rem;color:var(--muted);line-height:1.5}
+@media (max-width:900px){.layers{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.layers{grid-template-columns:1fr}}
+
+/* EVALUACIÓN */
+.eval{background:linear-gradient(180deg,var(--navy-800),var(--navy-900))}
+.eval-head{display:grid;grid-template-columns:1.2fr 1fr;gap:50px;align-items:end}
+@media (max-width:900px){.eval-head{grid-template-columns:1fr}}
+.eval-note{border:1px solid var(--line);padding:24px 26px;border-radius:6px;background:rgba(201,164,92,.05);font-size:.95rem;color:var(--muted)}
+.eval-note strong{color:var(--gold-soft);font-weight:600}
+.components{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:70px}
+@media (max-width:1000px){.components{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.components{grid-template-columns:1fr}}
+.comp{position:relative;padding:34px 30px 30px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(160deg,rgba(22,48,92,.55),rgba(10,23,48,.4));transition:.4s;display:flex;flex-direction:column}
+.comp:hover{border-color:var(--gold);transform:translateY(-4px)}
+.comp .n{font-family:var(--serif);font-size:3rem;line-height:1;color:var(--gold);opacity:.9}
+.comp h3{font-size:1.65rem;margin:18px 0 6px}
+.comp .q{font-family:var(--serif);font-style:italic;color:var(--gold-soft);font-size:1.12rem;margin:0 0 14px}
+.comp p:not(.q){color:var(--muted);font-size:.92rem;margin:0 0 20px;flex:1}
+.tag{align-self:flex-start;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--gold-soft)}
+.tag.free{background:var(--gold);color:var(--navy-900);border-color:var(--gold)}
+.comp.hero-comp{grid-column:span 2;background:linear-gradient(160deg,rgba(201,164,92,.16),rgba(10,23,48,.5))}
+@media (max-width:640px){.comp.hero-comp{grid-column:auto}}
+
+/* TEMPLO */
+.temple-wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(30px,5vw,70px);margin-top:90px;align-items:center}
+@media (max-width:960px){.temple-wrap{grid-template-columns:1fr}}
+.temple{position:relative;max-width:560px;width:100%;margin:0 auto;user-select:none}
+.pediment{clip-path:polygon(50% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(201,164,92,.35),rgba(201,164,92,.08));padding:58px 20px 18px;text-align:center;cursor:pointer;transition:.4s;position:relative}
+.pediment::before{content:"";position:absolute;inset:3px;clip-path:polygon(50% 0,100% 100%,0 100%);background:var(--navy-900);z-index:0}
+.pediment *{position:relative;z-index:1}
+.t-label{font-family:var(--serif);font-size:1.25rem;color:#fff}
+.t-sub{display:block;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.lintel{height:10px;background:var(--gold);margin:6px 0 10px;border-radius:2px;opacity:.85}
+.cols{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(8px,2vw,18px);padding:0 4%}
+.col{height:clamp(190px,30vw,250px);border:1px solid var(--gold);border-radius:3px;display:flex;align-items:center;justify-content:center;cursor:pointer;position:relative;overflow:hidden;background:rgba(10,23,48,.6);transition:.4s}
+.col::before{content:"";position:absolute;left:0;right:0;bottom:0;height:var(--fill,0%);background:linear-gradient(0deg,var(--gold),rgba(227,204,151,.55));transition:height 1.2s cubic-bezier(.7,0,.2,1)}
+.col::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 22%,rgba(201,164,92,.13) 22% 24%);pointer-events:none}
+.col span{position:relative;z-index:1;writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--serif);font-size:clamp(1rem,2.2vw,1.35rem);color:#fff;letter-spacing:.04em}
+.col.lit span{color:var(--navy-900);font-weight:600}
+.col:hover,.pediment:hover,.base:hover,.temple .active{filter:brightness(1.25)}
+.temple .active{box-shadow:0 0 0 2px var(--gold-soft),0 0 30px rgba(201,164,92,.45)}
+.base{margin-top:10px;border:1px solid var(--gold);padding:14px;text-align:center;cursor:pointer;background:rgba(201,164,92,.1);border-radius:3px;transition:.4s}
+.base.b2{margin-top:6px;padding:0;height:8px;background:var(--gold);opacity:.6;border:0;cursor:default}
+.pillar-info{min-height:220px}
+.pillar-info .k{font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.pillar-info h3{font-size:clamp(2rem,4vw,2.8rem);margin:10px 0 12px}
+.pillar-info p{color:var(--muted);margin:0 0 12px}
+.pillar-info .ask{font-family:var(--serif);font-style:italic;font-size:1.25rem;color:var(--gold-soft);border-left:2px solid var(--gold);padding-left:16px;margin-top:20px}
+
+/* QUIZ */
+.quiz{margin-top:80px;border:1px solid var(--line);border-radius:10px;background:var(--navy-800);overflow:hidden}
+.quiz-top{padding:30px clamp(22px,4vw,44px);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.quiz-top h3{font-size:clamp(1.6rem,3vw,2.2rem)}
+.progress{flex:1;min-width:160px;max-width:300px;height:3px;background:rgba(255,255,255,.08);border-radius:3px;overflow:hidden}
+.progress i{display:block;height:100%;width:0;background:var(--gold);transition:width .5s}
+.quiz-body{padding:clamp(28px,4vw,50px) clamp(22px,4vw,44px)}
+.qnum{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.qtext{font-family:var(--serif);font-size:clamp(1.5rem,3vw,2.2rem);color:#fff;line-height:1.25;margin:14px 0 34px;max-width:820px}
+.opts{display:flex;gap:12px;flex-wrap:wrap}
+.opt{flex:1;min-width:180px;padding:20px 22px;border:1px solid var(--line);background:transparent;color:var(--text);border-radius:8px;text-align:left;cursor:pointer;font-family:var(--sans);font-size:.95rem;transition:.3s}
+.opt b{display:block;font-family:var(--serif);font-size:1.3rem;color:var(--gold-soft);font-weight:500;margin-bottom:2px}
+.opt:hover{border-color:var(--gold);background:rgba(201,164,92,.08)}
+.result{display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:center}
+@media (max-width:700px){.result{grid-template-columns:1fr}}
+.score{width:170px;height:170px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--gold) calc(var(--p)*1%),rgba(255,255,255,.07) 0);position:relative}
+.score::before{content:"";position:absolute;inset:8px;border-radius:50%;background:var(--navy-800)}
+.score div{position:relative;text-align:center;font-family:var(--serif);font-size:3rem;color:#fff;line-height:1}
+.score small{display:block;font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;color:var(--muted);margin-top:6px}
+.result h4{font-family:var(--serif);font-weight:500;font-size:clamp(1.7rem,3vw,2.3rem);color:#fff;margin:0 0 10px}
+.result p{color:var(--muted);margin:0 0 14px}
+.result .weak{color:var(--gold-soft)}
+.result .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.fine{font-size:.78rem;color:var(--muted);opacity:.8;margin-top:18px}
+
+/* MODELOS */
+.models{background:var(--navy-900)}
+.fork{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:70px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+@media (max-width:900px){.fork{grid-template-columns:1fr}}
+.model{background:var(--navy-800);padding:clamp(30px,4vw,54px)}
+.model .who-for{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.model h3{font-size:clamp(2.4rem,4.5vw,3.4rem);margin:12px 0 4px}
+.model h3 sup{font-size:.4em;color:var(--gold)}
+.model .full{font-family:var(--serif);font-style:italic;color:var(--gold-soft);font-size:1.15rem;margin:0 0 22px}
+.model > p{color:var(--muted);margin:0 0 28px}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:10px;padding:13px 0;border-top:1px solid rgba(255,255,255,.06);font-size:.95rem}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--serif);color:var(--gold);font-size:1.2rem;line-height:1.3}
+.steps li b{color:#fff;font-weight:600}
+.steps li span{display:block;color:var(--muted);font-size:.85rem}
+.steps li.hl{background:linear-gradient(90deg,rgba(201,164,92,.14),transparent);margin:0 -14px;padding-inline:14px;border-radius:4px}
+.steps li.hl a{color:var(--gold);font-size:.8rem}
+.law{margin-top:26px;padding:18px 20px;border:1px dashed var(--line);border-radius:6px;font-size:.9rem;color:var(--muted)}
+.law b{color:var(--gold-soft)}
+.interfaces{margin-top:70px}
+.if-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:34px}
+@media (max-width:1000px){.if-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:600px){.if-grid{grid-template-columns:1fr 1fr}}
+.if{border:1px solid var(--line);border-radius:8px;padding:24px 20px;text-align:left;background:rgba(22,48,92,.3)}
+.if .L{font-family:var(--serif);font-size:2.6rem;color:var(--gold);line-height:1}
+.if h4{font-family:var(--serif);font-weight:500;color:#fff;font-size:1.3rem;margin:10px 0 2px}
+.if small{display:block;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:8px}
+.if p{margin:0;font-size:.85rem;color:var(--muted)}
+.value-eq{margin-top:40px;text-align:center;font-family:var(--serif);font-size:clamp(1.2rem,2.4vw,1.7rem);color:var(--text)}
+.value-eq b{color:var(--gold);font-weight:500}
+
+/* SERVICIOS */
+.services{background:var(--ivory);color:var(--ink)}
+.services h2,.services h3{color:var(--ink)}
+.services h2 em{color:var(--gold-deep)}
+.services .lead{color:#55607a}
+.services .eyebrow{color:var(--gold-deep)}.services .eyebrow::before{background:var(--gold-deep)}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:70px}
+@media (max-width:960px){.tiers{grid-template-columns:1fr}}
+.tier{background:#fff;border:1px solid var(--ivory-2);border-radius:10px;padding:40px 32px;display:flex;flex-direction:column;position:relative;transition:.4s}
+.tier:hover{transform:translateY(-6px);box-shadow:0 30px 60px -30px rgba(20,32,58,.35)}
+.tier.feat{background:var(--navy-800);color:var(--text);border-color:var(--navy-800)}
+.tier.feat h3{color:#fff}
+.tier .lvl{font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+.tier.feat .lvl{color:var(--gold)}
+.tier h3{font-size:2rem;margin:14px 0 4px}
+.tier .dur{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--gold-deep);margin-bottom:22px}
+.tier.feat .dur{color:var(--gold-soft)}
+.tier ul{list-style:none;padding:0;margin:0 0 30px;flex:1}
+.tier li{padding:10px 0 10px 26px;border-top:1px solid rgba(20,32,58,.08);position:relative;font-size:.93rem}
+.tier.feat li{border-color:rgba(255,255,255,.08);color:var(--muted)}
+.tier li::before{content:"◆";position:absolute;left:0;top:11px;font-size:.6rem;color:var(--gold)}
+.tier .btn{justify-content:center}
+.tier:not(.feat) .btn-ghost{color:var(--ink);border-color:var(--ink)}
+.tier:not(.feat) .btn-ghost:hover{background:var(--ink);color:var(--ivory)}
+.extras{display:flex;flex-wrap:wrap;gap:12px;margin-top:40px;justify-content:center}
+.extras span{border:1px solid rgba(20,32,58,.18);border-radius:999px;padding:10px 20px;font-size:.88rem;color:var(--ink)}
+.support{margin-top:70px;display:grid;grid-template-columns:1fr 1.4fr;gap:40px;align-items:center;padding-top:60px;border-top:1px solid rgba(20,32,58,.12)}
+@media (max-width:900px){.support{grid-template-columns:1fr}}
+.support h3{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+.support-list{display:grid;grid-template-columns:1fr 1fr;gap:16px 30px}
+@media (max-width:560px){.support-list{grid-template-columns:1fr}}
+.support-list div{font-size:.93rem;color:#3c4763;padding-left:18px;border-left:2px solid var(--gold)}
+.support-list b{display:block;color:var(--ink);font-family:var(--serif);font-size:1.2rem;font-weight:600}
+
+/* CASO */
+.case{background:var(--navy-800)}
+.case-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:clamp(30px,5vw,70px);align-items:center}
+@media (max-width:900px){.case-grid{grid-template-columns:1fr}}
+.video-frame{position:relative;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#000;aspect-ratio:16/9;max-width:100%}
+.video-frame video{width:100%;height:100%;object-fit:contain;display:block;background:#000}
+
+/* BITÁCORA */
+.blog{background:var(--navy-900)}
+.blog-head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:40px}
+.filters button{background:transparent;border:1px solid var(--line);color:var(--text);padding:9px 18px;border-radius:999px;cursor:pointer;font-family:var(--sans);font-size:.82rem;transition:.3s}
+.filters button.on,.filters button:hover{background:var(--gold);color:var(--navy-900);border-color:var(--gold)}
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+@media (max-width:960px){.posts{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.posts{grid-template-columns:1fr}}
+.post{border:1px solid var(--line);border-radius:10px;padding:32px 28px;cursor:pointer;background:linear-gradient(170deg,rgba(22,48,92,.45),rgba(6,15,32,.2));transition:.4s;display:flex;flex-direction:column;min-height:330px;text-align:left;color:inherit;font:inherit}
+.post:hover{border-color:var(--gold);transform:translateY(-4px)}
+.post.first{grid-column:span 2;background:linear-gradient(150deg,rgba(201,164,92,.2),rgba(10,23,48,.6))}
+@media (max-width:620px){.post.first{grid-column:auto}}
+.post .meta{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;display:flex;gap:12px;flex-wrap:wrap}
+.post h3{font-size:clamp(1.6rem,2.6vw,2.1rem);margin:18px 0 12px}
+.post.first h3{font-size:clamp(2rem,3.6vw,3rem)}
+.post p{color:var(--muted);margin:0;flex:1;font-size:.95rem}
+.post .more{margin-top:24px;color:var(--gold-soft);font-size:.85rem;font-weight:600}
+.subscribe{margin-top:80px;border:1px solid var(--gold);border-radius:12px;padding:clamp(30px,5vw,60px);display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;background:radial-gradient(600px 300px at 0 0,rgba(201,164,92,.15),transparent 70%),var(--navy-800)}
+@media (max-width:900px){.subscribe{grid-template-columns:1fr}}
+.subscribe h3{font-size:clamp(2rem,4vw,3rem)}
+.subscribe p{color:var(--muted);margin:14px 0 0}
+.sub-form{display:flex;flex-direction:column;gap:12px}
+.sub-form input{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:999px;padding:16px 24px;color:#fff;font-family:var(--sans);font-size:.95rem;outline:none}
+.sub-form input:focus{border-color:var(--gold)}
+.sub-form .btn{justify-content:center}
+.sub-msg{font-size:.85rem;color:var(--gold-soft);min-height:1.2em}
+.li-link{font-size:.82rem;color:var(--muted)}
+.li-link a{color:var(--gold-soft)}
+
+/* LECTOR */
+.reader{position:fixed;inset:0;z-index:100;background:var(--ivory);color:var(--ink);overflow-y:auto;opacity:0;pointer-events:none;transition:opacity .45s}
+.reader.open{opacity:1;pointer-events:auto}
+.reader-bar{position:sticky;top:0;z-index:2;background:rgba(246,241,230,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--ivory-2);padding-top:env(safe-area-inset-top,0px)}
+.reader-bar .in{max-width:760px;margin:0 auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:14px}
+.reader-bar .brand{font-family:var(--serif);color:var(--gold-deep);font-size:1.15rem}
+.reader-bar button{background:none;border:1px solid var(--ink);color:var(--ink);border-radius:999px;padding:8px 18px;cursor:pointer;font-family:var(--sans);font-size:.82rem}
+.read-progress{height:2px;background:var(--gold);width:0}
+.article{max-width:720px;margin:0 auto;padding:70px 22px 100px}
+.article .meta{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+.article h1{color:var(--ink);font-size:clamp(2.4rem,6vw,4rem);margin:18px 0 16px}
+.article .bajada{font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,2.6vw,1.6rem);color:#4a5570;line-height:1.35;margin:0 0 30px}
+.article .byline{display:flex;align-items:center;gap:14px;padding:18px 0;border-top:1px solid var(--ivory-2);border-bottom:1px solid var(--ivory-2);margin-bottom:44px;font-size:.88rem;color:#4a5570}
+.article .byline .av{width:44px;height:44px;border-radius:50%;background:var(--navy-800);color:var(--gold);display:grid;place-items:center;font-family:var(--serif);font-size:1rem;flex:none}
+.article .body{font-family:var(--serif);font-size:clamp(1.18rem,2vw,1.32rem);line-height:1.7;color:#1d2842}
+.article .body p{margin:0 0 1.3em}
+.article .body > p:first-child::first-letter{float:left;font-size:4.4em;line-height:.85;padding:.06em .1em 0 0;color:var(--gold-deep)}
+.article .body h2{color:var(--ink);font-size:clamp(1.6rem,3vw,2.1rem);margin:1.8em 0 .7em}
+.article .body blockquote{margin:1.6em 0;padding:4px 0 4px 26px;border-left:3px solid var(--gold);font-style:italic;font-size:1.25em;color:var(--ink);line-height:1.45}
+.article .body ul{padding-left:1.2em}
+.article .body strong{color:var(--ink)}
+.share{margin-top:50px;padding-top:30px;border-top:1px solid var(--ivory-2);display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.share span{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:#4a5570;margin-right:6px}
+.share a,.share button{border:1px solid rgba(20,32,58,.25);background:none;color:var(--ink);border-radius:999px;padding:9px 18px;font-size:.84rem;text-decoration:none;cursor:pointer;font-family:var(--sans)}
+.share a:hover,.share button:hover{background:var(--ink);color:var(--ivory)}
+.end-card{margin-top:50px;background:var(--navy-800);color:var(--text);border-radius:12px;padding:36px 32px}
+.end-card h3{color:#fff;font-size:1.8rem}
+.end-card p{color:var(--muted);margin:10px 0 22px}
+.end-card .row{display:flex;gap:12px;flex-wrap:wrap}
+
+/* VIDEOS */
+.videos{background:var(--navy-800)}
+.v-label{font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:60px 0 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.v-label a{color:var(--muted);text-decoration:none;letter-spacing:.1em;font-weight:500}
+.v-label a:hover{color:var(--gold-soft)}
+.yt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+@media (max-width:900px){.yt-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:580px){.yt-grid{grid-template-columns:1fr}}
+.tt-row{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:16px;scrollbar-width:thin;scrollbar-color:var(--gold) transparent}
+.vcard{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--navy-900)}
+.tt-row .vcard{flex:0 0 clamp(220px,26vw,280px);scroll-snap-align:start}
+.vthumb{position:relative;aspect-ratio:16/9;background:linear-gradient(140deg,var(--navy-600),var(--navy-900));cursor:pointer;display:grid;place-items:center;overflow:hidden;border:0;width:100%;padding:0;color:inherit}
+.tt-row .vthumb{aspect-ratio:9/16}
+.vthumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.vthumb:hover img{transform:scale(1.05)}
+.play{position:relative;z-index:1;width:64px;height:64px;border-radius:50%;background:rgba(6,15,32,.6);border:1px solid var(--gold);display:grid;place-items:center;transition:.3s;backdrop-filter:blur(4px)}
+.vthumb:hover .play{background:var(--gold)}
+.play::after{content:"";border-left:16px solid var(--gold-soft);border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:5px}
+.vthumb:hover .play::after{border-left-color:var(--navy-900)}
+.vthumb iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.soon{position:relative;z-index:1;text-align:center;color:var(--muted);font-size:.78rem;letter-spacing:.2em;text-transform:uppercase}
+.soon i{display:block;font-family:var(--serif);font-style:italic;font-size:1.6rem;letter-spacing:0;text-transform:none;color:var(--gold-soft);margin-bottom:6px}
+.vinfo{padding:16px 18px}
+.vinfo small{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.vinfo h4{font-family:var(--serif);font-weight:500;color:#fff;font-size:1.15rem;margin:6px 0 0;line-height:1.25}
+
+/* TRAYECTORIA */
+.about{background:var(--navy-900)}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(30px,6vw,80px);align-items:start}
+@media (max-width:900px){.about-grid{grid-template-columns:1fr}}
+.portrait{position:relative;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+.portrait img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:20% 30%;filter:saturate(.85) contrast(1.05)}
+.portrait::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(6,15,32,.85))}
+.portrait figcaption{position:absolute;left:24px;bottom:22px;z-index:1;font-family:var(--serif);font-style:italic;color:var(--gold-soft);font-size:1.1rem}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin:40px 0}
+@media (max-width:600px){.stats{grid-template-columns:1fr 1fr}}
+.stats div{background:var(--navy-800);padding:24px 18px}
+.stats b{display:block;font-family:var(--serif);font-weight:500;font-size:clamp(2.2rem,4vw,3rem);color:var(--gold);line-height:1}
+.stats span{font-size:.8rem;color:var(--muted)}
+.cred h4{font-family:var(--sans);font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin:34px 0 12px}
+.cred ul{list-style:none;padding:0;margin:0}
+.cred li{padding:10px 0;border-top:1px solid rgba(255,255,255,.06);font-size:.94rem;color:var(--text)}
+.cred li span{color:var(--muted);font-size:.85rem}
+
+/* CIERRE + FOOTER */
+.closing{text-align:center;background:radial-gradient(900px 500px at 50% 100%,rgba(201,164,92,.16),transparent 60%),var(--navy-800)}
+.closing .quote{margin:0 auto;border:0;padding:0;text-align:center}
+.closing .ctas{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:50px}
+.socials{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:44px}
+.socials a{width:48px;height:48px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;color:var(--gold-soft);transition:.3s}
+.socials a:hover{background:var(--gold);color:var(--navy-900);border-color:var(--gold)}
+.socials svg{width:19px;height:19px;fill:currentColor}
+footer{background:var(--navy-900);border-top:1px solid var(--line);padding:40px 0 calc(40px + env(safe-area-inset-bottom,0px));font-size:.82rem;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer .sig{font-family:var(--serif);font-style:italic;font-size:1.35rem;color:var(--gold)}
+footer .socials{margin:0}
+footer .socials a{width:38px;height:38px}
+footer .socials svg{width:15px;height:15px}
+.wa-float{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:40;width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--gold-soft),var(--gold));display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(0,0,0,.6);transition:.3s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:26px;height:26px;fill:var(--navy-900)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}.ratio div{transform:none}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="#inicio" class="mono">JCA <span>Transformación ExO™</span></a>
+    <ul id="menu">
+      <li><a href="#ia">IA desde 2017</a></li>
+      <li><a href="#evaluacion">Evaluación</a></li>
+      <li><a href="#modelos">Modelos</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#bitacora">Bitácora</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#trayectoria">Trayectoria</a></li>
+    </ul>
+    <a href="#evaluacion" class="btn btn-gold">Evalúa tu empresa</a>
+    <button class="burger" id="burger" aria-label="Abrir menú">☰</button>
+  </div>
+</nav>
+
+<!-- 1. HERO -->
+<header class="hero" id="inicio">
+  <div class="wrap">
+    <div class="badge reveal"><b>2017</b> Construyendo IA desde el primer modelo predictivo</div>
+    <h1 class="reveal">No implemento tecnología. <em>Elimino fricción</em> para que tu negocio crezca con lo que ya tienes.</h1>
+    <p class="who reveal"><strong>Juan Carlos Alzate García</strong> · Chief AI Officer · ExO Coach · Creador de MDE X 2.0 y MPD 2.0</p>
+    <div class="formula reveal" id="formula">
+      <small>La fórmula</small>
+      <span class="v">Valor</span> = (Velocidad × Claridad × Flujo) <span class="f">– Fricción</span>
+    </div>
+    <div class="ctas reveal">
+      <a href="#evaluacion" class="btn btn-gold">Evalúa tu empresa gratis →</a>
+      <a href="#bitacora" class="btn btn-ghost">Leer la Bitácora</a>
+    </div>
+  </div>
+</header>
+
+<!-- 2. MANIFIESTO -->
+<section class="manifest" id="manifiesto">
+  <div class="wrap">
+    <p class="eyebrow reveal">El principio</p>
+    <h2 class="reveal">La IA es el <em>5%</em>.<br>El resto es lo que la hace funcionar.</h2>
+    <p class="lead reveal">Tres décadas acompañando organizaciones en Latinoamérica me enseñaron que los proyectos no fallan por la herramienta. Fallan por lo que no se construyó antes de comprarla.</p>
+    <div class="ratio" id="ratio">
+      <div class="p"><b>70%</b><span>Personas y Cultura</span></div>
+      <div class="m"><b>25%</b><span>Metodología y Procesos</span></div>
+      <div class="t"><b>5%</b><span>Tecnología</span></div>
+    </div>
+    <blockquote class="quote reveal">"La IA amplifica lo que ya eres. Si tu organización es caótica, la IA escalará el caos."<cite>Juan Carlos Alzate García</cite></blockquote>
+  </div>
+</section>
+
+<!-- 3. IA DESDE 2017 -->
+<section class="ia" id="ia">
+  <div class="wrap">
+    <div class="ia-grid">
+      <div>
+        <p class="eyebrow reveal">Experiencia real en IA</p>
+        <h2 class="reveal">No llegué a la IA con la ola. <em>La vi venir.</em></h2>
+        <div class="big-year reveal">2017</div>
+        <p class="lead reveal">Ese año construí mi primer modelo predictivo de inteligencia artificial. Desde entonces he trabajado con cada generación de la IA, y uso IA generativa desde sus inicios. Hoy acompaño a las empresas de forma integral, del diagnóstico hasta los agentes en operación, para que sus proyectos de IA den resultados.</p>
+      </div>
+      <ol class="timeline reveal">
+        <li><div class="y">1990s</div><h3>Tres décadas de transformación</h3><p>Más de 30 años acompañando organizaciones en Latinoamérica en tecnología, procesos y cambio.</p></li>
+        <li><div class="y">2011–2024</div><h3>Vicepresidente de TI · Ciudad Celeste</h3><p>Arquitectura tecnológica del grupo inmobiliario líder en Ecuador: cloud, ERP JDEdwards, CRM Salesforce, BI y RPA.</p></li>
+        <li class="key"><div class="y">2017</div><h3>Primer modelo predictivo de IA</h3><p>El punto de partida: datos históricos convertidos en decisiones, seguido de IA predictiva con Salesforce Einstein.</p></li>
+        <li><div class="y">2020</div><h3>ExO Coach · OpenExO</h3><p>ExO Challenges internacionales en nueve países de habla hispana. Premio ExO Mindset LATAM 2021.</p></li>
+        <li class="key"><div class="y">Desde sus inicios</div><h3>IA generativa en la práctica</h3><p>Desde la llegada de la IA generativa, aplicada al trabajo real de empresas y líderes. Certificado en Generative AI for Business Leaders e instructor de Business Strategy and Generative AI (2023).</p></li>
+        <li><div class="y">2026</div><h3>MDE X 2.0 · MPD 2.0 · IA agéntica</h3><p>Modelos propios para empresas y personas, con la IA como capa transversal y agentes gobernados.</p></li>
+      </ol>
+    </div>
+    <div class="layers reveal" aria-label="Capas de IA con las que trabajo">
+      <div><small>Capa 1</small><h4>Predecir</h4><p>Aprendizaje automático y modelos predictivos. Aquí empecé en 2017.</p></div>
+      <div><small>Capa 2</small><h4>Reconocer</h4><p>Visión, voz y documentos procesados sin digitación.</p></div>
+      <div><small>Capa 3</small><h4>Crear</h4><p>IA generativa conectada a la información real de la empresa.</p></div>
+      <div><small>Capa 4</small><h4>Ejecutar</h4><p>Agentes con permisos, límites y responsables definidos.</p></div>
+      <div><small>Capa 5</small><h4>Orquestar</h4><p>IA agéntica coordinando procesos completos, con gobierno.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. EVALUACIÓN -->
+<section class="eval" id="evaluacion">
+  <div class="wrap">
+    <div class="eval-head">
+      <div>
+        <p class="eyebrow reveal">Antes de la IA, el terreno</p>
+        <h2 class="reveal">La Evaluación Integral <em>MDE X</em></h2>
+        <p class="lead reveal">No hay hoja de ruta sin diagnóstico. La evaluación completa es el Paso 1 del MDE X 2.0. Reúne cinco instrumentos en una sola lectura de dónde está su empresa hoy y qué necesita para que la IA genere valor.</p>
+      </div>
+      <div class="eval-note reveal"><strong>Puerta de entrada.</strong> Algunas evaluaciones están disponibles gratis o en versión parcial. Empiece por la de los 7 Pilares: está aquí abajo y toma 2 minutos.</div>
+    </div>
+
+    <div class="components">
+      <article class="comp hero-comp reveal">
+        <div class="n">I</div>
+        <h3>Los 7 Pilares de un Proyecto de IA Exitoso</h3>
+        <p class="q">¿Está listo su terreno para la IA?</p>
+        <p>Estrategia, Liderazgo, Cultura, Datos, Gobernanza, Procesos y Medición. Mide si lo que sostiene un proyecto de IA está construido, a medias o ausente, y entrega la ruta según el pilar más débil.</p>
+        <span class="tag free">Versión exprés gratuita · aquí abajo</span>
+      </article>
+      <article class="comp reveal">
+        <div class="n">II</div>
+        <h3>Canvas Evolutivo con IA</h3>
+        <p class="q">¿Hacia dónde debe evolucionar su modelo de negocio?</p>
+        <p>69 preguntas que llevan el modelo de negocio del estado actual (AS-IS) al futuro (TO-BE), a través de 7 niveles de evolución y 4 pilares nuevos: Ecosistema de Datos, Gobernanza de IA, Capacidades Humanas Aumentadas y Adaptabilidad Dinámica.</p>
+        <span class="tag">Versión parcial bajo solicitud</span>
+      </article>
+      <article class="comp reveal">
+        <div class="n">III</div>
+        <h3>ExO Assessment</h3>
+        <p class="q">¿Qué tan exponencial es su empresa?</p>
+        <p>Evalúa el Propósito Transformador Masivo (MTP) y los atributos exponenciales SCALE e IDEAS del modelo de Organizaciones Exponenciales, para saber qué palancas pueden multiplicar su crecimiento.</p>
+        <span class="tag">Versión parcial bajo solicitud</span>
+      </article>
+      <article class="comp reveal">
+        <div class="n">IV</div>
+        <h3>5 Interfaces y sus Fricciones</h3>
+        <p class="q">¿Dónde se rompe el flujo de valor?</p>
+        <p>Humana, Cultural, Digital, Organizacional e IA. Cada una se puntúa y revela su tipo de fricción: de decisión, de confianza, de información, de coordinación o de inteligencia.</p>
+        <span class="tag">Incluida en la evaluación completa</span>
+      </article>
+      <article class="comp reveal">
+        <div class="n">V</div>
+        <h3>Estado Actual y Madurez IA</h3>
+        <p class="q">¿Dónde está parada la empresa realmente?</p>
+        <p>FODA extendido y evaluación de madurez en IA: la línea base sin percepciones, para decidir antes de invertir un solo dólar.</p>
+        <span class="tag">Incluida en la evaluación completa</span>
+      </article>
+    </div>
+
+    <!-- TEMPLO INTERACTIVO -->
+    <div class="temple-wrap">
+      <div class="temple reveal" id="temple" aria-label="Los 7 pilares, toque cada parte">
+        <div class="pediment" data-p="0"><span class="t-sub">Techo</span><span class="t-label">Estrategia</span></div>
+        <div class="lintel"></div>
+        <div class="cols">
+          <div class="col" data-p="1"><span>Liderazgo</span></div>
+          <div class="col" data-p="2"><span>Cultura</span></div>
+          <div class="col" data-p="3"><span>Datos</span></div>
+          <div class="col" data-p="4"><span>Gobernanza</span></div>
+          <div class="col" data-p="5"><span>Procesos</span></div>
+        </div>
+        <div class="base" data-p="6"><span class="t-sub">Cimiento</span><span class="t-label">Medición</span></div>
+        <div class="base b2"></div>
+      </div>
+      <div class="pillar-info reveal" id="pillarInfo" aria-live="polite"></div>
+    </div>
+
+    <!-- QUIZ -->
+    <div class="quiz reveal" id="quiz">
+      <div class="quiz-top">
+        <h3>Diagnóstico exprés · 7 Pilares</h3>
+        <div class="progress"><i id="qbar"></i></div>
+      </div>
+      <div class="quiz-body" id="qbody"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. MODELOS -->
+<section class="models" id="modelos">
+  <div class="wrap">
+    <p class="eyebrow reveal">Dos caminos, un mismo principio</p>
+    <h2 class="reveal">¿A quién <em>acompaño</em> hoy?</h2>
+    <p class="lead reveal">Las empresas y las personas evolucionan con la misma regla: primero los pilares, después la tecnología. No se puede saltar pasos.</p>
+    <div class="fork">
+      <div class="model reveal">
+        <div class="who-for">Para empresas</div>
+        <h3>MDE X <sup>2.0</sup></h3>
+        <p class="full">Modelo de Evolución Digital Empresarial</p>
+        <p>No diagnostica tecnología, diagnostica flujo de valor. La IA recorre los 8 pasos como capa transversal.</p>
+        <ol class="steps">
+          <li class="hl"><div><b>Evaluación del Estado Actual + Madurez IA</b><span>7 Pilares · Canvas Evolutivo · ExO Assessment · 5 Interfaces · <a href="#evaluacion">ver evaluación</a></span></div></li>
+          <li><div><b>Estrategia Digital Exponencial</b><span>MTP, roadmap de IA a 3 horizontes y OKRs</span></div></li>
+          <li><div><b>Arquitectura de Datos e IA</b><span>Gobernanza, MLOps y ética: el cimiento antes de implementar</span></div></li>
+          <li><div><b>Optimización Operativa + Hiperautomatización</b><span>RPA, agentes de IA y reducción de costos</span></div></li>
+          <li><div><b>Innovación en el Modelo de Negocios</b><span>IA generativa, Design Sprint y personalización</span></div></li>
+          <li><div><b>Desarrollo de Capacidades Exponenciales</b><span>Cultura, alfabetización en IA y Superagency</span></div></li>
+          <li><div><b>Modelo de Negocio Disruptivo</b><span>ExO, los 11 atributos e IA nativa</span></div></li>
+          <li><div><b>Fusión Digital</b><span>Sistemas vivos de inteligencia que aprenden y mejoran solos</span></div></li>
+        </ol>
+      </div>
+      <div class="model reveal">
+        <div class="who-for">Para personas y líderes</div>
+        <h3>MPD <sup>2.0</sup></h3>
+        <p class="full">Modelo de Reinvención Personal en la Era de la IA</p>
+        <p>Cinco pilares para crecer con la IA como copiloto. La IA no reemplaza el trabajo de definir quién eres y qué quieres lograr: lo amplifica cuando ya tiene dirección.</p>
+        <ol class="steps">
+          <li><div><b>Propósito</b><span>No ¿qué debo aprender?, sino ¿qué necesito aprender para cumplir mi propósito?</span></div></li>
+          <li><div><b>Abundancia IA</b><span>La IA como filtro inteligente: menos recursos, más relevantes</span></div></li>
+          <li><div><b>Aprendizaje Aumentado</b><span>IA como tutor, coach y simulador: aprender más profundo</span></div></li>
+          <li><div><b>Síntesis Activa</b><span>Escribir, enseñar y construir para que el conocimiento no se pierda</span></div></li>
+          <li><div><b>Exponencialidad</b><span>Convertir lo aprendido en impacto que escala</span></div></li>
+        </ol>
+        <div class="law"><b>Ley 1 · El orden es obligatorio.</b> No se puede escalar sin haber sintetizado, ni sintetizar sin haber aprendido, ni aprender con eficiencia sin un propósito claro.</div>
+        <blockquote class="quote" style="margin-top:34px;font-size:1.45rem">"La era de la IA no necesita más consumidores de conocimiento. Necesita sintetizadores de conocimiento."</blockquote>
+      </div>
+    </div>
+
+    <div class="interfaces">
+      <p class="eyebrow reveal">El núcleo de MDE X</p>
+      <h2 class="reveal" style="font-size:clamp(1.9rem,4vw,3rem)">Cinco interfaces. <em>Cinco fricciones.</em></h2>
+      <div class="if-grid">
+        <div class="if reveal"><div class="L">H</div><h4>Humana</h4><small>Fricción de Decisión</small><p>Quién decide y con qué criterio.</p></div>
+        <div class="if reveal"><div class="L">C</div><h4>Cultural</h4><small>Fricción de Confianza</small><p>Si la empresa aprende de sus errores o los repite.</p></div>
+        <div class="if reveal"><div class="L">D</div><h4>Digital</h4><small>Fricción de Información</small><p>Dónde se pierde o duplica la información.</p></div>
+        <div class="if reveal"><div class="L">O</div><h4>Organizacional</h4><small>Fricción de Coordinación</small><p>Quién aprueba qué y en cuánto tiempo.</p></div>
+        <div class="if reveal"><div class="L">IA</div><h4>Inteligencia Artificial</h4><small>Fricción de Inteligencia</small><p>Si la IA tiene dueño y una meta medible.</p></div>
+      </div>
+      <p class="value-eq reveal">"Las empresas no fallan por falta de tecnología. <b>Fallan porque el valor no fluye entre sus interfaces.</b>"</p>
+    </div>
+  </div>
+</section>
+
+<!-- 6. SERVICIOS -->
+<section class="services" id="servicios">
+  <div class="wrap">
+    <p class="eyebrow reveal">Cómo lo acompaño</p>
+    <h2 class="reveal">Del diagnóstico a la <em>IA en operación</em>.</h2>
+    <p class="lead reveal">Tres etapas y un solo objetivo: que su proyecto de IA genere valor medible y no termine como otro piloto que nadie revisa.</p>
+    <div class="tiers">
+      <div class="tier reveal">
+        <div class="lvl">Entrada</div>
+        <h3>Diagnóstico Ejecutivo</h3>
+        <div class="dur">2 a 3 semanas</div>
+        <ul>
+          <li>Evaluación Integral MDE X completa</li>
+          <li>7 Pilares, Canvas Evolutivo y ExO Assessment</li>
+          <li>Score de interfaces y mapa de fricción</li>
+          <li>Presentación al directorio</li>
+        </ul>
+        <a class="btn btn-ghost js-contact" data-msg="Hola Juan Carlos, me interesa el Diagnóstico Ejecutivo para mi empresa." href="#contacto">Solicitar diagnóstico</a>
+      </div>
+      <div class="tier feat reveal">
+        <div class="lvl">Núcleo</div>
+        <h3>Rediseño Estratégico</h3>
+        <div class="dur">4 a 6 semanas</div>
+        <ul>
+          <li>Blueprint de interfaces</li>
+          <li>Roadmap de transformación con IA</li>
+          <li>Arquitectura de datos y gobernanza de IA</li>
+          <li>Quick wins definidos y priorizados</li>
+        </ul>
+        <a class="btn btn-gold js-contact" data-msg="Hola Juan Carlos, me interesa el Rediseño Estratégico." href="#contacto">Conversemos</a>
+      </div>
+      <div class="tier reveal">
+        <div class="lvl">Premium</div>
+        <h3>Ejecución Exponencial</h3>
+        <div class="dur">90 días de implementación</div>
+        <ul>
+          <li>Implementación con acompañamiento</li>
+          <li>IA generativa y agentes en producción</li>
+          <li>Cambios estructurales y mejora medible</li>
+          <li>Modelo replicable y gobierno de interfaces</li>
+        </ul>
+        <a class="btn btn-ghost js-contact" data-msg="Hola Juan Carlos, me interesa la Ejecución Exponencial." href="#contacto">Conversemos</a>
+      </div>
+    </div>
+    <div class="support">
+      <div class="reveal">
+        <p class="eyebrow">Apoyo integral en IA</p>
+        <h3>Todo lo que un proyecto de IA necesita para funcionar.</h3>
+      </div>
+      <div class="support-list reveal">
+        <div><b>Estrategia y caso de negocio</b>Cada iniciativa nace de un objetivo medible.</div>
+        <div><b>Datos y gobernanza</b>Políticas de uso, ética y gestión de la información.</div>
+        <div><b>IA generativa y agentes</b>Diseño, permisos, límites y puesta en producción.</div>
+        <div><b>Personas y cultura</b>Alfabetización en IA, champions internos y liderazgo.</div>
+        <div><b>Procesos rediseñados</b>No automatizar lo malo: rediseñarlo primero.</div>
+        <div><b>Medición</b>Lo que no se mide no se financia ni se escala.</div>
+      </div>
+    </div>
+    <div class="extras reveal">
+      <span>Conferencias y keynotes</span><span>ExO Coaching y ExO Sprints</span><span>Docencia ejecutiva</span><span>Talleres para directorios</span><span>Mentoría MPD 2.0 para líderes</span>
+    </div>
+  </div>
+</section>
+
+<!-- 7. CASO DE ÉXITO -->
+<section class="case" id="caso">
+  <div class="wrap case-grid">
+    <div>
+      <p class="eyebrow reveal">Caso de éxito</p>
+      <h2 class="reveal">Los 7 Pilares, <em>en una empresa real.</em></h2>
+      <p class="lead reveal">Una empresa importadora que construyó su terreno antes de escalar la IA. Pruebas, no promesas.</p>
+      <div class="reveal" style="margin-top:34px"><a href="#evaluacion" class="btn btn-ghost">Evaluar mi empresa →</a></div>
+    </div>
+    <div class="video-frame reveal">
+      <!-- Para usar YouTube en lugar del archivo local, reemplace <video> por el iframe de YouTube -->
+      <video controls preload="none" poster="7-pilares.jpg" playsinline>
+        <source src="caso-exito-7-pilares.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- 8. BITÁCORA -->
+<section class="blog" id="bitacora">
+  <div class="wrap">
+    <div class="blog-head">
+      <div>
+        <p class="eyebrow reveal">Newsletter · Criterio Exponencial</p>
+        <h2 class="reveal">La <em>Bitácora</em></h2>
+        <p class="lead reveal">Lo que veo desde adentro de los procesos de evolución digital en Latinoamérica. Con datos verificados, sin frases de manual.</p>
+      </div>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="posts" id="posts"></div>
+
+    <div class="subscribe reveal" id="suscribir">
+      <div>
+        <h3>Criterio <em>Exponencial</em></h3>
+        <p>Un newsletter para líderes que quieren que la IA les genere valor y no solo ruido. Una idea útil, con fuente, directo a su correo.</p>
+        <p class="li-link" id="liNews"></p>
+      </div>
+      <form class="sub-form" id="subForm">
+        <input type="text" name="nombre" placeholder="Nombre" autocomplete="name" required>
+        <input type="email" name="email" placeholder="Correo electrónico" autocomplete="email" required>
+        <button class="btn btn-gold" type="submit">Suscribirme</button>
+        <div class="sub-msg" id="subMsg"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- 9. VIDEOS -->
+<section class="videos" id="videos">
+  <div class="wrap">
+    <p class="eyebrow reveal">Sala de video</p>
+    <h2 class="reveal">Ideas en <em>movimiento</em>.</h2>
+    <p class="lead reveal">Conferencias, entrevistas, piezas breves y contenido externo que vale la pena ver, todo sin salir de aquí.</p>
+    <div class="v-label"><span>YouTube · Conferencias y entrevistas</span><a id="ytLink" target="_blank" rel="noopener">Ver canal →</a></div>
+    <div class="yt-grid" id="ytGrid"></div>
+    <div class="v-label"><span>TikTok · Ideas en 60 segundos</span><a id="ttLink" target="_blank" rel="noopener">Ver perfil →</a></div>
+    <div class="tt-row" id="ttRow"></div>
+  </div>
+</section>
+
+<!-- 10. TRAYECTORIA -->
+<section class="about" id="trayectoria">
+  <div class="wrap about-grid">
+    <figure class="portrait reveal" style="margin:0">
+      <img src="foto-jcag.jpg" alt="Juan Carlos Alzate García en conferencia sobre los pilares de la IA" loading="lazy">
+      <figcaption>Speaker internacional · CxOforum LATAM</figcaption>
+    </figure>
+    <div>
+      <p class="eyebrow reveal">Trayectoria</p>
+      <h2 class="reveal">Treinta años de <em>criterio</em>, nueve con IA.</h2>
+      <p class="lead reveal">Chief AI Officer y VP de Transformación Digital en Transformación ExO. Coach certificado ExO, speaker internacional y vicepresidente del Comité Directivo de CxOforum.</p>
+      <div class="stats reveal">
+        <div><b>30+</b><span>años de transformación</span></div>
+        <div><b>2017</b><span>primer modelo predictivo de IA</span></div>
+        <div><b>9</b><span>países con ExO Challenges</span></div>
+        <div><b>27</b><span>certificaciones en IA y liderazgo</span></div>
+      </div>
+      <div class="cred reveal">
+        <h4>Reconocimientos</h4>
+        <ul>
+          <li>#3 en Tecnología e Innovación en Ecuador <span>· Ranking Favikon, 2026</span></li>
+          <li>Premio Líder IT, segundo lugar <span>· CxOforum, Revista IT Ahora, 2022</span></li>
+          <li>Premio ExO Mindset LATAM <span>· OpenExO, 2021</span></li>
+        </ul>
+        <h4>Publicaciones</h4>
+        <ul>
+          <li>Los 7 Pilares de un Proyecto de IA Exitoso <span>· Libro</span></li>
+          <li>La Transformación Empresarial en el Sector Inmobiliario y Constructor <span>· Construdata, Legis, 2024</span></li>
+          <li>Innovación y Eficiencia: Claves de la Transformación en el Sector Inmobiliario <span>· Construdata, 2024</span></li>
+          <li>Transformación y Talento Humano, Éxito de Reinvención <span>· Factor de Éxito, 2023</span></li>
+          <li>Reinvención, Transformación <span>· Portada, IT Ahora, 2022</span></li>
+        </ul>
+        <h4>Formación</h4>
+        <ul>
+          <li>Maestría en Liderazgo y Organizational Leadership <span>· EADA Business School, España</span></li>
+          <li>Maestría en Business Administration <span>· Pontificia Universidad Católica del Perú</span></li>
+          <li>ExO Builder Certificado <span>· OpenExO</span> · Coaching Directivo <span>· IDE Business School</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11. CIERRE -->
+<section class="closing" id="contacto">
+  <div class="wrap">
+    <p class="eyebrow reveal" style="justify-content:center">Conversemos</p>
+    <blockquote class="quote reveal">"Las empresas que van a dominar los próximos años no son las que adopten más tecnología, sino las que eliminen más fricción."</blockquote>
+    <div class="ctas reveal" id="contactCtas"></div>
+    <div class="socials reveal" id="socials"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><div class="sig">Juan Carlos Alzate García</div>Transformación ExO™ · © <span id="yr"></span></div>
+    <div class="socials" id="socialsFoot"></div>
+  </div>
+</footer>
+
+<a class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="WhatsApp" hidden></a>
+
+<!-- LECTOR DE ARTÍCULOS -->
+<div class="reader" id="reader" role="dialog" aria-modal="true" aria-label="Artículo">
+  <div class="reader-bar">
+    <div class="in"><span class="brand">La Bitácora · Criterio Exponencial</span><button id="closeReader">✕ Cerrar</button></div>
+    <div class="read-progress" id="readProg"></div>
+  </div>
+  <article class="article" id="article"></article>
+</div>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  /* ---------- Íconos de redes ---------- */
+  const ICON = {
+    linkedin:'<path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.3 21 14.7V21h-4v-5.6c0-1.33-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95V21H9z"/>',
+    youtube:'<path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-4.8.5-4.8s0-3.2-.5-4.8zM9.75 15.02V8.98L15.5 12z"/>',
+    tiktok:'<path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.6 2.6 0 0 1-2.6-2.6 2.6 2.6 0 0 1 3.37-2.48V9.66A5.68 5.68 0 0 0 4.2 15.3a5.66 5.66 0 0 0 5.66 5.7 5.66 5.66 0 0 0 5.68-5.66V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3a4.3 4.3 0 0 1-3.24-1.48z"/>',
+    instagram:'<path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.2.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 4 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.9a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8zm0 8.1a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.1-9.4a1.15 1.15 0 1 0 0 2.3 1.15 1.15 0 0 0 0-2.3z"/>',
+    x:'<path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23zm-1.16 17.52h1.83L7.08 4.13H5.12z"/>',
+    facebook:'<path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/>',
+    whatsapp:'<path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.04 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.81 11.81 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.49-8.41z"/>',
+    email:'<path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.24-8 5-8-5V6l8 5 8-5z"/>'
+  };
+  const svg = k => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICON[k]}</svg>`;
+  const waURL = msg => CONFIG.whatsapp ? `https://wa.me/${CONFIG.whatsapp.replace(/\D/g,'')}?text=${encodeURIComponent(msg||'Hola Juan Carlos, vi tu web y me gustaría conversar.')}` : '';
+  const socialURL = k => k==='whatsapp' ? waURL() : k==='email' ? (CONFIG.email ? 'mailto:'+CONFIG.email : '') : CONFIG[k];
+
+  function renderSocials(el){
+    el.innerHTML = ['linkedin','youtube','tiktok','instagram','x','facebook','whatsapp','email']
+      .filter(k => socialURL(k))
+      .map(k => `<a href="${esc(socialURL(k))}" target="_blank" rel="noopener" aria-label="${k}" title="${k}">${svg(k)}</a>`).join('');
+  }
+  renderSocials($('#socials')); renderSocials($('#socialsFoot'));
+  $('#yr').textContent = new Date().getFullYear();
+
+  if (CONFIG.whatsapp){ const w=$('#waFloat'); w.href=waURL(); w.innerHTML=svg('whatsapp'); w.hidden=false; }
+
+  // Botones de contacto: prioridad agenda → WhatsApp → correo → LinkedIn
+  function contactHref(msg){
+    return CONFIG.agenda || waURL(msg) || (CONFIG.email ? `mailto:${CONFIG.email}?subject=${encodeURIComponent('Contacto desde la web')}&body=${encodeURIComponent(msg||'')}` : '') || CONFIG.linkedin;
+  }
+  document.querySelectorAll('.js-contact').forEach(a => { a.href = contactHref(a.dataset.msg); a.target='_blank'; a.rel='noopener'; });
+  const cc = [];
+  if (CONFIG.agenda) cc.push(`<a class="btn btn-gold" href="${esc(CONFIG.agenda)}" target="_blank" rel="noopener">Agendar una conversación</a>`);
+  if (CONFIG.whatsapp) cc.push(`<a class="btn ${cc.length?'btn-ghost':'btn-gold'}" href="${esc(waURL())}" target="_blank" rel="noopener">Escribir por WhatsApp</a>`);
+  cc.push(`<a class="btn ${cc.length?'btn-ghost':'btn-gold'}" href="${esc(CONFIG.linkedin)}" target="_blank" rel="noopener">Conectar en LinkedIn</a>`);
+  $('#contactCtas').innerHTML = cc.join('');
+
+  /* ---------- Nav ---------- */
+  const nav = $('#nav');
+  const onScroll = () => nav.classList.toggle('solid', scrollY > 40);
+  addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  $('#burger').onclick = () => $('#menu').classList.toggle('open');
+  document.querySelectorAll('#menu a').forEach(a => a.onclick = () => $('#menu').classList.remove('open'));
+
+  /* ---------- Revelado al hacer scroll ---------- */
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }), {threshold:.14});
+  document.querySelectorAll('.reveal, #ratio').forEach(el => io.observe(el));
+  setTimeout(() => $('#formula').classList.add('go'), 300);
+
+  /* ---------- Templo de los 7 pilares ---------- */
+  const PILARES = [
+    {n:'Estrategia', rol:'El techo', d:'Cada iniciativa nace de un objetivo de negocio medible. Sin estrategia, la IA es un experimento caro que no conecta con ingresos, costos ni prioridades.', q:'¿Qué objetivo de negocio mueve cada proyecto de IA que tienen hoy?', item:'Cada iniciativa de IA nace de un objetivo de negocio medible: ingreso, costo o prioridad estratégica.', rec:'Antes de cualquier herramienta, vincule cada iniciativa a una meta del negocio con un indicador.'},
+    {n:'Liderazgo', rol:'Columna 1', d:'Alguien con nombre y apellido responde por los resultados. La IA no se delega solo a TI ni a un comité.', q:'¿Quién responde por los resultados financieros de su IA?', item:'Hay un ejecutivo con nombre y apellido responsable de los resultados de la IA, no solo un comité o el área de TI.', rec:'Nombre un responsable ejecutivo de los resultados de la IA y llévela a la agenda del directorio.'},
+    {n:'Cultura', rol:'Columna 2', d:'Las personas usan la IA de forma segura, con herramientas aprobadas, y la empresa aprende de sus errores en lugar de repetirlos.', q:'¿Su gente experimenta con IA abiertamente o a escondidas?', item:'Los equipos usan IA con herramientas aprobadas por la empresa y se sienten seguros para experimentar.', rec:'Forme champions internos y dé herramientas aprobadas: la cultura es el 70% del resultado.'},
+    {n:'Datos', rol:'Columna 3', d:'Datos organizados, confiables y accesibles. Sin este cimiento, la IA produce resultados pobres o incluso negativos.', q:'¿Confiaría una decisión importante a sus datos actuales?', item:'Nuestros datos están organizados, son confiables y están al alcance de quien decide.', rec:'Ordene su ecosistema de datos antes de escalar: la IA amplifica la calidad (o el desorden) de lo que recibe.'},
+    {n:'Gobernanza', rol:'Columna 4', d:'Reglas claras: quién usa qué modelo, con qué información, y quién revisa lo que la IA genera antes de que se convierta en una decisión.', q:'¿Existe una política de uso de IA que su equipo conozca?', item:'Existe una política clara sobre qué puede usar la IA, con qué información y quién revisa lo que genera.', rec:'Defina una política de uso, la ética y el control de lo que la IA recibe y entrega.'},
+    {n:'Procesos', rol:'Columna 5', d:'Automatizar un proceso malo solo acelera el error. El valor aparece cuando el trabajo se rediseña alrededor de la IA.', q:'¿Rediseñaron algún proceso, o solo le pusieron IA encima?', item:'Hemos rediseñado al menos un proceso o puesto de trabajo alrededor de la IA, no solo automatizado lo existente.', rec:'Elija un proceso crítico y rediséñelo desde cero con la IA integrada, en vez de automatizar el actual.'},
+    {n:'Medición', rol:'El cimiento', d:'Lo que no se mide no se financia ni se escala. Cada iniciativa necesita indicadores definidos desde el primer día.', q:'¿Puede mostrar el retorno de su IA en números?', item:'Medimos el impacto de cada iniciativa de IA con indicadores definidos desde el inicio.', rec:'Defina la línea base y los indicadores antes de lanzar: sin medición no hay presupuesto para escalar.'}
+  ];
+  const tparts = document.querySelectorAll('#temple [data-p]');
+  function showPillar(i){
+    const p = PILARES[i];
+    tparts.forEach(el => el.classList.toggle('active', +el.dataset.p === i));
+    $('#pillarInfo').innerHTML = `<div class="k">Pilar ${i+1} de 7 · ${p.rol}</div><h3>${p.n}</h3><p>${p.d}</p><div class="ask">${p.q}</div>`;
+  }
+  tparts.forEach(el => el.addEventListener('click', () => showPillar(+el.dataset.p)));
+  showPillar(0);
+  let auto = 0, autoTimer = setInterval(() => { auto = (auto+1)%7; showPillar(auto); }, 4200);
+  $('#temple').addEventListener('click', () => clearInterval(autoTimer), {once:true});
+
+  /* ---------- Diagnóstico exprés ---------- */
+  const OPTS = [{v:2,t:'Construido',s:'Es una realidad hoy'},{v:1,t:'A medias',s:'Existe, pero incompleto'},{v:0,t:'Ausente',s:'Todavía no lo tenemos'}];
+  let answers = [];
+  function renderQ(){
+    const i = answers.length;
+    $('#qbar').style.width = (i/7*100)+'%';
+    if (i === 7) return renderResult();
+    const p = PILARES[i];
+    $('#qbody').innerHTML = `<div class="qnum">Pilar ${i+1} de 7 · ${p.n}</div><div class="qtext">${p.item}</div>
+      <div class="opts">${OPTS.map(o => `<button class="opt" data-v="${o.v}"><b>${o.t}</b>${o.s}</button>`).join('')}</div>
+      ${i ? '<p class="fine"><a href="#" id="qback" style="color:var(--gold-soft)">← Volver</a></p>' : ''}`;
+    $('#qbody').querySelectorAll('.opt').forEach(b => b.onclick = () => { answers.push(+b.dataset.v); clearInterval(autoTimer); showPillar(Math.min(answers.length,6)); renderQ(); });
+    const back = $('#qback'); if (back) back.onclick = e => { e.preventDefault(); answers.pop(); renderQ(); };
+  }
+  function renderResult(){
+    const total = answers.reduce((a,b)=>a+b,0), pct = Math.round(total/14*100);
+    const min = Math.min(...answers), weak = answers.indexOf(min), wp = PILARES[weak];
+    const lvl = total >= 12 ? ['Terreno firme','Sus pilares sostienen la IA. El siguiente paso es escalar con método y medir el impacto en el negocio.']
+              : total >= 7 ? ['Terreno en construcción','Tiene bases, pero hay pilares que pueden convertir un buen proyecto de IA en otro piloto que nadie revisa.']
+              : ['Terreno frágil','Invertir en IA hoy sería apostar, no decidir. Primero hay que construir los cimientos.'];
+    tparts.forEach(el => { const k=+el.dataset.p; el.style.setProperty('--fill', (answers[k]/2*100)+'%'); el.classList.toggle('lit', answers[k]===2); });
+    showPillar(weak);
+    const msg = `Hola Juan Carlos, hice el diagnóstico exprés de los 7 Pilares en tu web. Resultado: ${total}/14 (${lvl[0]}). Pilar más débil: ${wp.n}. Me gustaría recibir la evaluación completa.`;
+    $('#qbody').innerHTML = `<div class="result">
+      <div class="score" style="--p:${pct}"><div>${total}<small>DE 14</small></div></div>
+      <div>
+        <h4>${lvl[0]}</h4><p>${lvl[1]}</p>
+        <p>Su pilar más débil: <span class="weak"><b>${wp.n}</b></span>. ${wp.rec}</p>
+        <div class="ctas">
+          <a class="btn btn-gold" href="${esc(contactHref(msg))}" target="_blank" rel="noopener">Quiero la evaluación completa</a>
+          <button class="btn btn-ghost" id="qreset">Repetir</button>
+        </div>
+        <p class="fine">Diagnóstico orientativo basado en los 7 Pilares. La Evaluación Integral MDE X profundiza con 4 a 5 preguntas por pilar e integra el Canvas Evolutivo, el ExO Assessment y las 5 interfaces.</p>
+      </div></div>`;
+    $('#qreset').onclick = () => { answers=[]; tparts.forEach(el=>{el.style.removeProperty('--fill');el.classList.remove('lit');}); renderQ(); };
+    document.getElementById('temple').scrollIntoView({behavior:'smooth',block:'center'});
+  }
+  renderQ();
+
+  /* ---------- Bitácora ---------- */
+  const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+  const fmtFecha = f => { const [y,m,d] = f.split('-').map(Number); return `${d} de ${MESES[m-1]} de ${y}`; };
+  const minutos = t => Math.max(1, Math.round(t.split(/\s+/).length/220));
+  const posts = ARTICULOS.slice().sort((a,b) => b.fecha.localeCompare(a.fecha));
+  const temas = ['Todos', ...new Set(posts.map(p => p.tema))];
+  let filtro = 'Todos';
+  function renderFilters(){
+    $('#filters').innerHTML = temas.map(t => `<button class="${t===filtro?'on':''}" data-t="${esc(t)}">${esc(t)}</button>`).join('');
+    $('#filters').querySelectorAll('button').forEach(b => b.onclick = () => { filtro = b.dataset.t; renderFilters(); renderPosts(); });
+  }
+  function renderPosts(){
+    const list = posts.filter(p => filtro==='Todos' || p.tema===filtro);
+    $('#posts').innerHTML = list.map((p,i) => `<button class="post ${i===0?'first':''}" data-slug="${esc(p.slug)}">
+      <div class="meta"><span>${esc(p.tema)}</span><span>${fmtFecha(p.fecha)}</span><span>${minutos(p.texto)} min</span></div>
+      <h3>${esc(p.titulo)}</h3><p>${esc(p.bajada)}</p><span class="more">Leer artículo →</span></button>`).join('');
+    $('#posts').querySelectorAll('.post').forEach(b => b.onclick = () => { location.hash = 'leer=' + b.dataset.slug; });
+  }
+  renderFilters(); renderPosts();
+
+  function md(t){
+    const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+    return t.trim().split(/\n\s*\n/).map(b => {
+      b = b.trim();
+      if (b.startsWith('## ')) return `<h2>${inline(b.slice(3))}</h2>`;
+      if (b.startsWith('> ')) return `<blockquote>${inline(b.replace(/^> ?/gm,''))}</blockquote>`;
+      if (/^- /.test(b)) return '<ul>' + b.split('\n').map(l => `<li>${inline(l.replace(/^- /,''))}</li>`).join('') + '</ul>';
+      return `<p>${inline(b).replace(/\n/g,'<br>')}</p>`;
+    }).join('');
+  }
+  const reader = $('#reader');
+  let lastScroll = 0;
+  function openArticle(slug){
+    const p = ARTICULOS.find(a => a.slug === slug); if (!p) return;
+    const url = location.href;
+    const shareText = encodeURIComponent(p.titulo + ' · Juan Carlos Alzate García');
+    $('#article').innerHTML = `
+      <div class="meta">${esc(p.tema)} · ${fmtFecha(p.fecha)} · ${minutos(p.texto)} min de lectura</div>
+      <h1>${esc(p.titulo)}</h1>
+      <p class="bajada">${esc(p.bajada)}</p>
+      <div class="byline"><div class="av">JCA</div><div><strong style="color:var(--ink)">Juan Carlos Alzate García</strong><br>Chief AI Officer · Creador de MDE X 2.0 y MPD 2.0</div></div>
+      <div class="body">${md(p.texto)}</div>
+      <div class="share"><span>Compartir</span>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://wa.me/?text=${shareText}%20${encodeURIComponent(url)}" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://twitter.com/intent/tweet?text=${shareText}&url=${encodeURIComponent(url)}" target="_blank" rel="noopener">X</a>
+        <button id="copyLink">Copiar enlace</button>
+        ${p.origen ? `<a href="${esc(p.origen)}" target="_blank" rel="noopener">Ver en LinkedIn</a>` : ''}
+      </div>
+      <div class="end-card">
+        <h3>¿Su empresa está lista para la IA?</h3>
+        <p>Haga el diagnóstico exprés de los 7 Pilares en 2 minutos, o suscríbase a Criterio Exponencial.</p>
+        <div class="row"><a class="btn btn-gold" href="#evaluacion" data-close>Evaluar mi empresa</a><a class="btn btn-ghost" href="#suscribir" data-close>Suscribirme</a></div>
+      </div>`;
+    $('#copyLink').onclick = e => { navigator.clipboard && navigator.clipboard.writeText(url).then(() => e.target.textContent='¡Copiado!'); };
+    $('#article').querySelectorAll('[data-close]').forEach(a => a.addEventListener('click', ev => { ev.preventDefault(); const t=a.getAttribute('href'); closeReader(); setTimeout(()=>document.querySelector(t).scrollIntoView({behavior:'smooth'}),80); }));
+    if (!reader.classList.contains('open')) lastScroll = scrollY;
+    reader.classList.add('open'); reader.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+    document.title = p.titulo + ' · Juan Carlos Alzate García';
+  }
+  function closeReader(){
+    reader.classList.remove('open'); document.body.style.overflow = '';
+    document.title = 'Juan Carlos Alzate García · Cero Fricción';
+    if (location.hash.startsWith('#leer=')) history.replaceState(null,'',location.pathname + location.search + '#bitacora');
+  }
+  $('#closeReader').onclick = closeReader;
+  addEventListener('keydown', e => { if (e.key==='Escape' && reader.classList.contains('open')) closeReader(); });
+  reader.addEventListener('scroll', () => { const h = reader.scrollHeight - reader.clientHeight; $('#readProg').style.width = (h>0? reader.scrollTop/h*100 : 0)+'%'; });
+  function route(){ const m = location.hash.match(/^#leer=(.+)$/); if (m) openArticle(decodeURIComponent(m[1])); else if (reader.classList.contains('open')) closeReader(); }
+  addEventListener('hashchange', route); route();
+
+  /* ---------- Newsletter ---------- */
+  if (CONFIG.newsletterLinkedin) $('#liNews').innerHTML = `¿Prefiere LinkedIn? <a href="${esc(CONFIG.newsletterLinkedin)}" target="_blank" rel="noopener">Siga también el newsletter en LinkedIn →</a>`;
+  $('#subForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    const f = e.target, data = new FormData(f), msg = $('#subMsg');
+    if (CONFIG.formularioNewsletter){
+      try{
+        const r = await fetch(CONFIG.formularioNewsletter, {method:'POST', body:data, headers:{'Accept':'application/json'}});
+        msg.textContent = r.ok ? '¡Gracias! Ya es parte de Criterio Exponencial.' : 'No se pudo completar. Intente de nuevo.';
+        if (r.ok) f.reset();
+      }catch(_){ msg.textContent = 'No se pudo completar. Intente de nuevo.'; }
+      return;
+    }
+    const texto = `Hola Juan Carlos, quiero suscribirme a Criterio Exponencial. Nombre: ${data.get('nombre')}. Correo: ${data.get('email')}`;
+    const href = CONFIG.email ? `mailto:${CONFIG.email}?subject=${encodeURIComponent('Suscripción Criterio Exponencial')}&body=${encodeURIComponent(texto)}` : waURL(texto) || CONFIG.newsletterLinkedin || CONFIG.linkedin;
+    window.open(href, '_blank');
+    msg.textContent = 'Gracias. Complete el envío en la ventana que se abrió.';
+  });
+
+  /* ---------- Videos ---------- */
+  const ytId = u => (u.match(/(?:youtu\.be\/|v=|embed\/|shorts\/|live\/)([\w-]{11})/)||[])[1];
+  const ttId = u => (u.match(/video\/(\d+)/)||[])[1];
+  function vcard(v){
+    const src = v.fuente === 'externo' ? 'Recomendado' : 'Canal propio';
+    let id = v.url && (v.plataforma==='youtube' ? ytId(v.url) : ttId(v.url));
+    let inner;
+    if (!id) inner = `<div class="soon"><i>Próximamente</i>${v.plataforma==='youtube'?'YouTube':'TikTok'}</div>`;
+    else if (v.plataforma==='youtube') inner = `<img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="" loading="lazy"><span class="play"></span>`;
+    else inner = `<span class="play"></span>`;
+    return `<div class="vcard reveal in"><button class="vthumb" ${id?`data-id="${id}" data-pl="${v.plataforma}"`:'disabled style="cursor:default"'} aria-label="Reproducir ${esc(v.titulo)}">${inner}</button>
+      <div class="vinfo"><small>${src}</small><h4>${esc(v.titulo)}</h4></div></div>`;
+  }
+  $('#ytGrid').innerHTML = VIDEOS.filter(v=>v.plataforma==='youtube').map(vcard).join('');
+  $('#ttRow').innerHTML = VIDEOS.filter(v=>v.plataforma==='tiktok').map(vcard).join('');
+  document.querySelectorAll('.vthumb[data-id]').forEach(b => b.addEventListener('click', () => {
+    const src = b.dataset.pl==='youtube' ? `https://www.youtube-nocookie.com/embed/${b.dataset.id}?autoplay=1&rel=0` : `https://www.tiktok.com/embed/v2/${b.dataset.id}`;
+    b.innerHTML = `<iframe src="${src}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="Video"></iframe>`;
+  }, {once:true}));
+  [['#ytLink','youtube'],['#ttLink','tiktok']].forEach(([s,k]) => { const a=$(s); if (CONFIG[k]) a.href=CONFIG[k]; else a.hidden=true; });
+})();
+</script>
+</body>
+</html>
